@@ -1,0 +1,14 @@
+[project]
+name = "comfyui-force-pytorch-attention"
+description = "Force PyTorch attention for a single model. Fixes 'No operator found for memory_efficient_attention_forward' on RTX 50xx with xformers (e.g. Qwen-Image 2.1) without disabling xformers globally."
+version = "1.0.0"
+license = { file = "LICENSE" }
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/rasmont/comfyui-force-pytorch-attention"
+
+[tool.comfy]
+PublisherId = "rasmont"
+DisplayName = "Force PyTorch Attention (xformers fix)"
+Icon = ""
